@@ -51,11 +51,13 @@ button:hover{
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 .hero-container{
-    background: url(./assets/hero-bg.png);
+    /* max-width: 1600px; */
+    background-image: url(./assets/hero-bg.png);
     background-size: cover;
     text-align: center;
     align-content: center;
     padding: 115px 0;
+    margin: 0 auto;
     color: white;
 }
 .hero-contant .early-access{
@@ -102,7 +104,7 @@ button:hover{
     font-size: 48px;
     font-weight: bold;
     color: #001931;
-    margin-top: 55px;
+    padding-top: 55px;
 }
 .section1-heading p{
     font-size: 16px;
@@ -147,5 +149,51 @@ button:hover{
     font-size: 16px;
     color: #627382;
     line-height: 24px;
+}
+
+.brain{
+    margin-top: 70px;
+    display: flex;
+    gap: 60px;
+}
+.brain-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.solution-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+.brain-details .solution-content .solution{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
     
+}
+.brain-details .solution-content h3{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.brain-details .solution-content p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+.chack-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    color: #001931;
+}
+.fa-solid{
+    color: #30B868;
 }
