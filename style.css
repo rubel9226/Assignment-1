@@ -194,6 +194,27 @@ button:hover{
     gap: 16px;
     color: #001931;
 }
-.fa-solid{
+.fa-circle-check{
     color: #30B868;
+}
+.early-access{
+    margin-top: 120px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    text-align: center;
+    padding: 40px 0;
+}
+.early-access div h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+.early-access div p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+}
+.early-access div button{
+    margin-top: 24px;
 }
