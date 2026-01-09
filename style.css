@@ -47,8 +47,12 @@ button{
     
 }
 button:hover{
-    background-color: #3b7e57;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    background-color: #346c4b;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.5);
+}
+.btn:hover{
+    background-color: #797979;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.8);
 }
 .hero-container{
     /* max-width: 1600px; */
@@ -217,4 +221,44 @@ button:hover{
 }
 .early-access div button{
     margin-top: 24px;
+}
+
+footer{
+    margin-top: 120px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    background-color: #001931;
+}
+.social-conteiner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.social-conteiner div{
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500px;
+    
+}
+.social-conteiner div div{
+    margin-top: 16px;
+    
+}
+.social-conteiner div div a{
+    color: white;
+    
+}
+.copy-right{
+    color: #FAFAFA;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 16px;
+
+}
+.copy-right hr{
+    margin-bottom: 30px;
+     border: none;
+     border-top: 0.5px solid #fafafa77;
+
 }
